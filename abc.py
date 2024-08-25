@@ -23,9 +23,9 @@ X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.fit_transform(X_test)
 X_test_adl = scaler.fit_transform(X_adl)
 
-model = Sequential()
-model.add(Dense(64, input_dim=input_dim, activation='relu'))
-model.add(Dense(32, activation='relu'))
-model.add(Dense(1, activation='sigmoid'))
+#model = Sequential()
+#model.add(Dense(64, input_dim=input_dim, activation='relu'))
+#model.add(Dense(32, activation='relu'))
+#model.add(Dense(1, activation='sigmoid'))
 
 print(X_test_scaled)
